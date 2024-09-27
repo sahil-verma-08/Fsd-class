@@ -1,3 +1,19 @@
 body{
     background-color: blue;
 }
+table{
+    border-color: brown;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    border-style: groove;
+    border-width: 10px;
+    color: beige;
+}
+h1{
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+}
+td{
+    color: black;
+}
