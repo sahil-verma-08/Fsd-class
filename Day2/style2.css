@@ -1,0 +1,26 @@
+.fcontainer{
+    display: flex;
+    flex-direction: row-reverse ;            /* for change the direction in row*/
+    /* flex-direction: column-reverse; */    
+ 
+    justify-content: center;
+}
+.f{
+  width: 200px;
+  height: 120px;
+  margin: 20px;
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: 20px;
+  border-radius: 10px ;
+  border-color: blue;
+  border-width: 10px;
+  border-style: groove;
+  
+}
+
+
+#item{
+    order: 2;
+
+}
