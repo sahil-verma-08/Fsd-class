@@ -1,10 +1,14 @@
-#heading {
+
+body{
+     text-align: center;
+}
+    #heading {
     text-align: center;
     background-color: rgb(11, 176, 176);
     color: black;
 font-size: 40px;
 }
 table{
-    width: 100px;
+    width: 400px;
     background-color: chartreuse;
 }
