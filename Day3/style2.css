@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: bisque;
+
+}
+
+    .f{
+        background-color: rgb(153, 211, 153);
+        border: 2px solid rgb(40, 38, 38);
+       padding: 40px;
+    }
+
+    .item1{
+        grid-column-start: 1 ;
+        grid-column-end: 5;
+    }
+    .item2{
+        grid-column-start: 1;
+        grid-column-end: 5;
+
+    }
+    .item3{
+
+    }
+    .item4{
+
+    }
+    .item5{
+        
+    }

@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+#header{
+    height: 74px;
+    display: flex;
+   border-width: 3px;
+   
+   border-color: rgb(10, 8, 6);
+   
+    background-color: #257180;
+}
+img{
+    
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    padding:6px;
+  
+}
+.name{
+    font-size: 12px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #10375C ;
+   
+}
+#header.menu{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    padding-left: 10px;
+}

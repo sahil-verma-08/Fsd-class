@@ -6,21 +6,95 @@
 #mydiv{
     display: flex;
     flex-direction: column;
+    height: 700px;
 }
 
 #header{
     display: flex;
-    width: 1000px;
+    width: 100vw;
     background-color: bisque;
     justify-content: center;
     gap: 20px;
+    height: 70px;
     justify-content: space-between;
     align-items: center;
     border-bottom: solid gold;
 }
+
+#header.logo{
+  
+    width: 200px; /* Set the desired width */
+            height: 200px; /* Set the desired height */
+            border-radius: 50%; /* This makes the image circular */
+            object-fit: cover; /* Ensures the image covers the container without distortion */
+            display: inline-block;
+}
+#header .menu{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+#header.nav-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+.nav-item{
+    background-color: rgb(222, 235, 235);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.login{
+    width: hug(104px)px;
+    height: hug(48px)px;
+    padding: 12px 20px 12px 20px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    margin-right: 3px;
+    border-radius: 10px;
+
+}
+.signup
+{
+  width: Hug (104px)px;
+  height: Hug (48px)px;
+  padding: 12px 20px 12px 20px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #3940A0 0%, #3CA3C1 100%);
+opacity: 0px;
+border: 1px solid grey;
+color: #FFFFFF;
+}
 #maincontain{
-   
+    box-sizing: border-box;
+   width: 500px;
+   height: 500px;
+   margin-top: 10px ;
+   border-width: 2px;
+   border-color: solid black;
+   background-color: rgb(242, 255, 127);
+   align-self: center;
+   margin-top: 40px;
+   border-radius: 30px;
+   padding: 9px;
+   font-size: 10px;
 }
 #footer{
-   
+   box-sizing: border-box;
+   border-width: 4px;
+   border-color: rgb(2, 1, 1);
+   background-color: #8a8ec4;
+   height: 200px;
+   text-align: center;
+
+
 }
