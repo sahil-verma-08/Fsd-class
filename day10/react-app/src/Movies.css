@@ -1,0 +1,30 @@
+.movie-list{
+    background-color: rgb(17, 20, 20);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.movie{
+    width: 25%;
+    height: 600px;
+    border: 10px solid white;
+    margin: 20px;
+}
+.movie-img{
+    width: 80%;
+    padding: 20px;
+    height: 300px;
+
+}
+.movie h1{
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.movie h2{
+    background-color: lightgray;
+    border-radius: 5px;
+    border: 2px solid white;
+}
