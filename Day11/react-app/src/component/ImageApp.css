@@ -1,0 +1,35 @@
+.Inc{
+    color: white;
+    background-color: rgb(13, 13, 85);
+    border: none;
+    border-radius: 3px;
+  
+    margin-top: 10px;
+    width:100%;
+    height:40px;
+    font-weight: 500;
+  
+  }
+  .Dec{
+    color: white;
+    background-color: rgb(67, 18, 18);
+    border: none;
+    border-radius: 3px;
+  
+    margin-top: 10px;
+    width:100%;
+    height:40px;
+    font-weight: 500;
+  
+  }
+  .panel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .img{
+    width: 100%;
+    height: 300px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
